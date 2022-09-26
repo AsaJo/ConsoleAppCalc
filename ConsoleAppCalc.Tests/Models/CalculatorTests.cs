@@ -26,7 +26,7 @@ namespace ConsoleAppCalc.Tests.Models
         }
 
         [Theory]
-        [InlineData(4, 3, 7)]
+        [InlineData(4, 3, 7)]//[InlineData(double x + double y = double expected)]
         [InlineData(21, 5.25, 26.25)]
         [InlineData(-4, 3, -1)]
        
